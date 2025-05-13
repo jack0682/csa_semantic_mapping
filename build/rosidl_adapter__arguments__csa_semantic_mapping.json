@@ -1,0 +1,7 @@
+{
+  "package_name": "csa_semantic_mapping",
+  "non_idl_tuples": [
+    "/home/jack/ros2_ws/src/csa_semantic_mapping:msg/TrackedObject.msg",
+    "/home/jack/ros2_ws/src/csa_semantic_mapping:msg/TrackedObjectArray.msg"
+  ]
+}

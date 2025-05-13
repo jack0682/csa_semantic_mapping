@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from csa_semantic_mapping/msg/TrackedObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module csa_semantic_mapping {
+  module msg {
+    @verbatim (language="comment", text=
+      "TrackedObject.msg" "\n"
+      "단일 객체의 시맨틱 정보 표현")
+    struct TrackedObject {
+      @verbatim (language="comment", text=
+        "Tracking ID (StrongSORT로부터 추출)")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "객체의 클래스명 (YOLO 예: \"person\", \"cup\", ...)")
+      string label;
+
+      @verbatim (language="comment", text=
+        "YOLO confidence score")
+      float probability;
+
+      @verbatim (language="comment", text=
+        "SLAM 기반 3D 위치 [x, y, z]")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "YOLO 클래스 ID (int형, 숫자 라벨)")
+      int32 class_id;
+
+      @verbatim (language="comment", text=
+        "timestamp와 frame_id 포함")
+      std_msgs::msg::Header header;
+    };
+  };
+};
