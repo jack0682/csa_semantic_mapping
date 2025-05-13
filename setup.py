@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'csa_semantic_mapping'
+package_name = 'csa_semantic_mapping_py'
 
 setup(
     name=package_name,

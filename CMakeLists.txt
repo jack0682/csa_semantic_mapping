@@ -17,7 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 # 파이썬 노드 설치 설정
-ament_python_install_package(${PROJECT_NAME})
+ament_python_install_package(csa_semantic_mapping_py)
 
 # 의존성 설정
 ament_package()

@@ -1,0 +1,55 @@
+The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/c/mingw64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/3.22.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mnt/c/mingw64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/3.22.1/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d2436/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d2436.dir/build.make CMakeFiles/cmTC_d2436.dir/build
+gmake[1]: Entering directory '/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2436.dir/testCCompiler.c.o
+/mnt/c/mingw64/bin/gcc.exe    -o CMakeFiles/cmTC_d2436.dir/testCCompiler.c.o -c /home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d2436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2436.dir/link.txt --verbose=1
+/mnt/c/mingw64/bin/gcc.exe CMakeFiles/cmTC_d2436.dir/testCCompiler.c.o -o cmTC_d2436 
+gmake[1]: Leaving directory '/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2ea1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2ea1.dir/build.make CMakeFiles/cmTC_b2ea1.dir/build
+gmake[1]: Entering directory '/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2ea1.dir/testCXXCompiler.cxx.o
+/mnt/c/mingw64/bin/g++.exe    -o CMakeFiles/cmTC_b2ea1.dir/testCXXCompiler.cxx.o -c /home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b2ea1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2ea1.dir/link.txt --verbose=1
+/mnt/c/mingw64/bin/g++.exe CMakeFiles/cmTC_b2ea1.dir/testCXXCompiler.cxx.o -o cmTC_b2ea1 
+gmake[1]: Leaving directory '/home/jack/ros2_ws/src/csa_semantic_mapping/build/CMakeFiles/CMakeTmp'
+
+
+
